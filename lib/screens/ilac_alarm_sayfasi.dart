@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import '../models/alarm.dart';
 import '../services/notification_service.dart';
-import '../widgets/ takvim_widget.dart';
+import '../widgets/takvim_widget.dart';
 import 'alarm_ekleme_sayfasi.dart';
 
 class IlacAlarmSayfasi extends StatefulWidget {
