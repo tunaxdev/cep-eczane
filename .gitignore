@@ -28,9 +28,10 @@ render.experimental.xml
 *.keystore
 
 # Google Services (e.g. APIs or Firebase)
-# Include these files to ensure they are available to all developers
-!android/app/google-services.json
-!ios/Runner/GoogleService-Info.plist
+# Kendi Firebase yapılandırmanızı "flutterfire configure" ile oluşturun
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+macos/Runner/GoogleService-Info.plist
 
 # Android Profiling
 *.hprof
